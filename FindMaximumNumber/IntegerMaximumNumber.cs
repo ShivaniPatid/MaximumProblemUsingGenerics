@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FindMaximumNumber
 {
-    public class IntegerMaximumNumber
+    internal class IntegerMaximumNumber
     {
         public int PrintIntegerMaximumNumber(int num1, int num2, int num3)
         {

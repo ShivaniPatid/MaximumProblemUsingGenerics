@@ -18,8 +18,9 @@ namespace FindMaximumNumber
             {
                 case 1:
                     IntegerMaximumNumber integerMaximumNumber = new IntegerMaximumNumber();
-                    int value = integerMaximumNumber.PrintIntegerMaximumNumber(40, 50, 30);
-                    Console.WriteLine("Maximum Number Of Integer is " + value);
+                    int value = integerMaximumNumber.PrintIntegerMaximumNumber(70, 85, 60);
+                    Console.WriteLine("Maximum number of integer is "+value);
+
                     break;
                 default:
                     Console.WriteLine("Chosse a right number");
