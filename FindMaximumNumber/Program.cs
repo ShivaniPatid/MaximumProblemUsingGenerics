@@ -12,7 +12,7 @@ namespace FindMaximumNumber
         static void Main(string[] args)
         {
             Console.WriteLine("Choose a option to find a maximum number : ");
-            Console.WriteLine(" 1. Find integer maximum number among 3 numbers\n 2. Find float maximum number among 3 numbers\n 3 . Find maximum string among 3 strings");
+            Console.WriteLine(" 1. Find integer maximum number among 3 numbers\n 2. Find float maximum number among 3 numbers\n 3. Find maximum string among 3 strings\n 4. Find Maximum value among 3 values");
             int option=Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -31,6 +31,15 @@ namespace FindMaximumNumber
                     MaximumString maximumString = new MaximumString();
                     string strvalue = maximumString.PrintMaximumString("Apple", "Banana", "Peach");
                     Console.WriteLine("Maximum string is "+strvalue);
+                    break;
+                case 4:
+                    GenericMaximumValue genericMaximumValue = new GenericMaximumValue();
+                    int value1 = genericMaximumValue.MaximumValue(112, 75, 30);
+                    float value2 = genericMaximumValue.MaximumValue(155.6f, 66.50f, 30.33f);
+                    string value3 = genericMaximumValue.MaximumValue("Peach", "Apple", "Banana");
+                    Console.WriteLine("Maximum Integer value is "+value1);
+                    Console.WriteLine("Maximum float value is "+value2);
+                    Console.WriteLine("Maximum string is "+value3);
                     break;
                 default:
                     Console.WriteLine("Chosse a right number");
