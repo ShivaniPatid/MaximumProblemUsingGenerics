@@ -46,8 +46,10 @@
     <Compile Include="FloatMaximumNumber.cs" />
     <Compile Include="GenericMaximum.cs" />
     <Compile Include="GenericMaximumValue.cs" />
+    <Compile Include="GenericMAxValue.cs" />
     <Compile Include="IntegerMaximumNumber.cs" />
     <Compile Include="MaximumString.cs" />
+    <Compile Include="MaximumValue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
